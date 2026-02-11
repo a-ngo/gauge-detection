@@ -1,0 +1,20 @@
+[project]
+name = "gauge-detection"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "albumentations>=2.0.8",
+    "easyocr>=1.7.2",
+    "mlflow>=3.9.0",
+    "opencv-python>=4.13.0.92",
+    "roboflow>=1.2.13",
+    "setuptools>=82.0.0",
+    "torch>=2.10.0",
+    "torchaudio>=2.10.0",
+    "torchvision>=0.25.0",
+    "ultralytics>=8.4.14",
+    "wandb>=0.24.2",
+    "wheel>=0.46.3",
+]
